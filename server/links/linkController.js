@@ -1,6 +1,7 @@
 var Link    = require('./linkModel.js'),
     Q       = require('q'),
     util    = require('../config/utils.js');
+    
 
 
 module.exports = {
@@ -81,6 +82,11 @@ module.exports = {
         res.redirect(savedLink.url);
       }
     });
-  }
+  }, 
+
+
+
+
+
 
 };
