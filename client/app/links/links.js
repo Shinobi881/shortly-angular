@@ -10,6 +10,8 @@ angular.module('shortly.links', [])
     
   };
   
+
+  
   $scope.getLinks = function(){
     
     Links.getData().then(function(data){
@@ -17,7 +19,11 @@ angular.module('shortly.links', [])
     });    
   }
 
+
+  
+
   $scope.getLinks();
+  
 });
 
 
